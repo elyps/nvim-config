@@ -32,6 +32,37 @@ Make sure to remove or move your current `nvim` directory
 git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
 ```
 
+## Install Dependencies
+```sh
+npm i -g vscode-langservers-extracted
+```
+
+## Language servers
+[Language servers](https://github.com/williamboman/nvim-lsp-installer#available-lsps)
+
+## TODO: Updates
+### ToggleTerm
+[HomepageToggleTerm](https://reviewgithub.com/rep/akinsho/toggleterm.nvim)
+[GithubToggleTerm](https://github.com/akinsho/toggleterm.nvim)
+```lua
+Using packer in lua
+use {"akinsho/toggleterm.nvim", tag = 'v2.*', config = function()
+require("toggleterm").setup()
+end}
+Using vim-plug in vimscript
+Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
+```
+
+### CMD 
+```lua
+:ToggleTerm size=10 dir=~/dev/projects/ direction=horizontal
+```
+
+### Keymaps
+```lua
+keymap("n", "<leader>tt", ":ToggleTerm size=10 dir=~/dev/projects/ direction=horizontal<CR>", opts)
+```
+
 Run `nvim` and wait for the plugins to be installed 
 
 **NOTE** (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
