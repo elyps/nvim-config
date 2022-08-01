@@ -40,8 +40,9 @@ npm i -g vscode-langservers-extracted
 ## Language servers
 [Language servers](https://github.com/williamboman/nvim-lsp-installer#available-lsps)
 
-## TODO: Updates
-### ToggleTerm
+## DONE: Updates
+
+## ToggleTerm
 [HomepageToggleTerm](https://reviewgithub.com/rep/akinsho/toggleterm.nvim)
 [GithubToggleTerm](https://github.com/akinsho/toggleterm.nvim)
 ```lua
