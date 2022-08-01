@@ -1,0 +1,2 @@
+<Space> e		# Toggle Tree
+<Space> tt		# Toggle Terminal
