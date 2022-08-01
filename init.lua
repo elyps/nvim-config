@@ -5,7 +5,7 @@ require "user.autocommands"
 require "user.colorscheme"
 require "user.cmp"
 require "user.telescope"
-require "user.treesitter"
+-- require "user.treesitter" -- dont work on arm64
 require "user.autopairs"
 require "user.comment"
 require "user.gitsigns"
