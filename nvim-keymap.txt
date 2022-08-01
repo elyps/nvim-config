@@ -1,2 +1,11 @@
-<Space> e		# Toggle Tree
-<Space> tt		# Toggle Terminal
+<leader-key> == <Space>
+
+<leader> e		  # Toggle Tree
+<leader> tt		  # Toggle Terminal
+<leader> 77     # Toggle line comment
+
+<leader> ff     # Find files
+<leader> ft     # Find string
+<leader> fp     # Find projects
+<leader> fb     # Find buffers
+
