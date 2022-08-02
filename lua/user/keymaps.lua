@@ -80,4 +80,4 @@ keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 -- Terminal
-keymap("n", "<leader>tt", ":ToggleTerm size=10 dir=~/dev/projects/ direction=horizontal<CR>", opts)
+keymap("n", "<leader>tt", ":ToggleTerm size=15 dir=~/dev/projects/ direction=horizontal<CR>", opts)
